@@ -38,7 +38,7 @@ class FeatureServiceProvider extends ServiceProvider
             return app()->make($config->get('features.repository'));
         });
 
-        $this->registerBladeDirective();
+//        $this->registerBladeDirective();
         $this->registerConsoleCommand();
     }
 
